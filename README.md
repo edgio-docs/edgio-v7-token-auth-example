@@ -14,13 +14,13 @@ This application exposes a few separate pages and one API endpoint:
 
 ## How to Use
 1. Navigate to the project homepage and click the link for the "Landing Page."
-1. On the Token Auth landing page, click **Generate Token**.
+1. On the landing page, click the button to "Generate a temporary token."
 1. Copy the generated token to your clipboard. Note that the links on this page will automatically update when a token is generated.
 1. If you have generated a token via the client-side generator (see below), you can replace the token in the query string for any of the secure routes.
 
 ## Generating a Custom Token
-You can also generate a custom token for this site.
-1. Navigate to the "Token Generator/Decoder" page.
+You can also generate a custom token for this site. (Please note: the primary and backup tokens must be present in the Edgio environment variables for this feature to work properly.)
+1. Navigate to the "Client-side Token Generator/Decoder" page.
 1. Under the "Encode Token" section, enter the values you need for your token.
 1. In that same section, enter one of the two keys you entered in your Token Auth settings for your Edgio environment.
 1. Click "Encode Token."
